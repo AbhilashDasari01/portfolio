@@ -131,7 +131,7 @@ margin-top: 37.5px;
 
 
 
-@media only screen and (min-device-width: 480px){
+@media screen and (max-width: 480px){
     .topnav .options{
         display: block;
         float: left;
