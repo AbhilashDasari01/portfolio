@@ -1,0 +1,196 @@
+body{
+  background-image:linear-gradient(to bottom,rgba(0,0,0,0.8) ,rgba(84, 84, 84, 0.9)),url('../../images/wp3916518.jpg');
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    margin: 0;
+   height: 100vh;
+    overflow:hidden;
+        padding:0;
+    
+  
+}
+.topnav {
+    overflow: hidden;
+        border-radius: 5px;
+}
+.topnav a{
+    float: right;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family:arial;
+    font-size: 15px;
+    transition: transform 0.5s;
+    
+
+    
+}
+.topnav a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    transform: translateY(-2px)
+}
+.topnav a:active{
+    border-bottom: 3px solid white;
+}
+.topnav .options{
+    display:none;
+}
+.aboutmebody{
+    color: white;
+    padding:5px 30px;
+    margin: 10vh 5vw;
+    font-size: 23px;
+    text-align:start;
+    
+    
+}
+.skillstitle{
+    position: absolute;
+    color: white;
+    padding:0px 30px;
+    margin: 0vh 5vw;
+}
+.skills{
+    position:absolute;
+    color: white;
+    padding: 30px ;
+    font-size:20px;
+    margin-left:125px;
+    margin-top: 30px;
+    
+}
+.skills ul li{
+    float: left;
+    padding-right:50px;
+    font-size: 23px;
+}
+.skillname:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+
+   .title {
+       font-family: sans-serif;
+        font-size: 50px;
+       text-align: center;
+    transition :transform 0.6s;
+    border-radius: 15px;
+       text-shadow:5px 10px 20px rgba(0,0,0,0.8);
+       color:white; 
+       margin left: 20%;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+.socials{
+    
+    color: white;
+    background-color: #333;
+    text-align: center;
+    
+}
+.footeralign{
+margin-top: 37.5px;
+}
+.social_icons {
+    text-decoration: none;
+    color: white;
+    font-size:3vh;
+    padding: 5vw;
+    
+}
+.qr{
+    background-image: url(../../images/Screenshot_20220309-031205.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: 5vh 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:750px){
+    .topnav .options{
+        display: block;
+        float: left;
+        font-size: 30px;
+    }
+    .topnav a{
+        display: none;
+    }
+    .topnavresponsive{
+        background-color: #333;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .topnavresponsive .options{
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-decoration: none;
+        font-size: 30px;
+        margin-right: 15px;
+    }
+    .topnavresponsive a{
+        position: relative;
+        float:none;
+        display: block;
+        font-size: 20px;
+        text-align: left;
+        text-decoration: none;
+        color: white;
+        margin-left: 15px;
+    }
+   .title{
+        font-size: 25px;
+    }
+    .social_icons{
+        font-size: 15px;
+        padding:1vw;
+    
+    }
+    .aboutmebody{
+        font-size: 18px;
+        padding: 0 20px;
+        margin:5vh 2vw;
+    }
+    .skills{
+        padding: 0;
+    }
+    .skills ul li{
+        font-size: 20px;
+        float: none;
+        padding:3px;
+    }
+
+}
+
+
+.dgaf {
+    background-image: url(../../images/attempting-to-give-a-fuck-give-a-fuck.gif);
+        background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: 5vh 0;
+}
