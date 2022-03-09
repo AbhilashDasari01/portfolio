@@ -130,6 +130,7 @@ margin-top: 37.5px;
 
 
 @media screen and (max-width:750px){
+  @media only screen and (max-width: 620px){
     .topnav .options{
         display: block;
         float: left;
@@ -182,7 +183,7 @@ margin-top: 37.5px;
         float: none;
         padding:3px;
     }
-
+  }
 }
 
 
