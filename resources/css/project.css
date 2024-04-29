@@ -100,10 +100,8 @@ body{
     
     
 }
-.skillname:hover{
-    transform: scale(1.1);
-    transition: transform 0.5s;
-}
+
+
 
 
    .title {
@@ -161,12 +159,27 @@ margin-top: 37.5px;
     margin-left:125px;
 }
 
+.projtitle{
+    color: white;
+    padding:10px 30px;
+    margin: 4vh 5vw;
+    margin-top: 50px;
+}
 
+.proj{
+    color: white;
+    font-size:20px;
+    margin-left:125px;
+}
+.proj a{
+    text-decoration: none;
+    color: white;
+}
 
-
-
-
-
+.projlink:hover{
+    transform: scale(1.5);
+    transition: transform 0.5s;
+}
 
 
 
@@ -214,10 +227,9 @@ margin-top: 37.5px;
         padding:1vw;
     
     }
-  .mydetails{
-       font-size:10px; 
-  }
-  
+    .mydetails{
+        font-size: 10px;
+    }
     .aboutmebody{
         font-size: 15px;
         padding: 0 20px;
@@ -228,6 +240,8 @@ margin-top: 37.5px;
     }
     .education{
         font-size: 15px;
+    margin-right: 30px;
+    margin-left: 15%;
     }
     .skillstitle{
         font-size: 20px;
@@ -245,9 +259,20 @@ margin-top: 37.5px;
 }
     .workexp{
     font-size: 15px;
+    margin-right: 30px;
+    margin-left: 15%;
 }
-  
-  }
+    .projtitle{
+   font-size: 20px;
 }
 
+.proj{
+   font-size: 15px;
+    margin-right: 30px;
+    margin-left: 15%;
+}
+.
+
+  }
+}
 
