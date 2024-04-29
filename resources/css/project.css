@@ -83,13 +83,17 @@ body{
     padding:0px 150px;
     font-size:20px;
     margin-left:125px;
-    text-align: justify-al;
     
 }
 .skills ul li{
-    float: left;
+    float:left;
     padding-right:50px;
+    padding-top: 30px;
     font-size: 23px;
+    align-content: center;
+    justify-content: center; 
+    
+    
 }
 .skillname:hover{
     transform: scale(1.1);
