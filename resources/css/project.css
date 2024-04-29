@@ -10,6 +10,7 @@ body{
     
   
 }
+
 .topnav {
     overflow: hidden;
         border-radius: 5px;
@@ -38,11 +39,16 @@ body{
 .topnav .options{
     display:none;
 }
-.myphoto{
-        display: block;
-    margin-left:20%;
-    
-}
+.myphoto {
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        height: 200px;
+    }
+    .myphoto img {
+        max-width: 100%; 
+        max-height: 100%;
+    }
 .aboutmebody{
     color: white;
     padding:10px 250px;
