@@ -72,12 +72,12 @@ body{
     margin: 5vh 5vw;
 }
 .skills{
+    
     color: white;
-    padding:30px 150px;
+    padding:0px 150px;
     font-size:20px;
     margin-left:125px;
-    margin-top: 60px;
-    text-align: justify-all;
+    text-align: justify-al;
     
 }
 .skills ul li{
@@ -212,5 +212,4 @@ margin-top: 37.5px;
     }
   }
 }
-
 
