@@ -49,6 +49,11 @@ body{
         max-width: 100%; 
         max-height: 100%;
     }
+.mydetails{
+    color:white;
+    font-size: 15px;
+    margin-left: 20px;
+}
 .aboutmebody{
     color: white;
     padding:10px 250px;
@@ -239,4 +244,5 @@ margin-top: 37.5px;
 }
   }
 }
+
 
