@@ -184,7 +184,7 @@ margin-top: 37.5px;
 
 
 
-@media screen and (max-width:750px){
+@media screen and (max-width:1000px){
   @media only screen and (max-width: 620px){
     .topnav .options{
         display: block;
