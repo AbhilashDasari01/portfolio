@@ -214,6 +214,10 @@ margin-top: 37.5px;
         padding:1vw;
     
     }
+  .mydetails{
+       font-size:10px; 
+  }
+  
     .aboutmebody{
         font-size: 15px;
         padding: 0 20px;
@@ -242,6 +246,7 @@ margin-top: 37.5px;
     .workexp{
     font-size: 15px;
 }
+  
   }
 }
 
