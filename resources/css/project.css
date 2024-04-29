@@ -189,6 +189,8 @@ margin-top: 37.5px;
         color: white;
         margin-left: 15px;
     }
+    . 
+      }
    .title{
         font-size: 25px;
     }
@@ -198,18 +200,33 @@ margin-top: 37.5px;
     
     }
     .aboutmebody{
-        font-size: 18px;
+        font-size: 15px;
         padding: 0 20px;
         margin:5vh 2vw;
+    }
+    .educationtitle{
+        font-size: 20px;
+    }
+    .education{
+        font-size: 15px;
+    }
+    .skillstitle{
+        font-size: 15px;
     }
     .skills{
         padding: 0;
     }
     .skills ul li{
-        font-size: 20px;
+        font-size: 15px;
         float: none;
         padding:3px;
     }
+    .workexptitle{
+   font-size: 20px;
+}
+    .workexp{
+    font-size: 15px;
+}
   }
 }
 
