@@ -1,0 +1,261 @@
+*{margin: 0;padding: 0;font-family: sans-serif;}
+.nav,.logo,.links,.wel,.wel .buttons,.aboutme-body,.skills-body,.skill-list ul,.project,.exp-cont{
+    display: flex;
+
+}
+
+.download-cv,.hireme-button, .aboutme .banner,.skills,.projects,.projects .banner,.project .desc,.miniprojects,.header .socialicons,.header .socialicons a,.footer .title ,.madewithlove,.cert,.certifications,.work
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background:url('../media/home-bg.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.nav img{
+    height: 15vh;
+}
+.nav{
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.8),rgba(0,0,0,0.5),rgba(0,0,0,0));
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+    position: fixed;
+    
+}
+.logo{
+    width: 30%;
+    justify-content: left;
+    margin: 4vw;
+}
+.links{
+    width:70% ;
+    margin: 0 2vw;
+    justify-content: right;
+}
+
+.nav a{
+    font-size: 18px;
+    padding: 7px 5px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+   
+    
+    
+}
+.nav a:hover{
+    border-bottom: 1.5px solid white;
+    transform:translateY(-6px);
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+}
+
+.nav a:active{
+    border-bottom: 4px solid white;
+    
+}
+
+.wel{
+    color: white;
+    height: 90vh;
+    width: 70%;
+    align-items: center;
+}
+
+.wel-desc{
+    width: 60%;
+    margin: 0 10vw;
+}
+.wel h1{
+    font-size: 70px;
+}
+.wel h2{
+    font-size: 40px;
+}
+.wel p{
+    margin: 3vh 0;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.download-cv,.hireme-button{
+    height: 5vh;
+    width: 10vw;
+    background: rgb(112, 112, 112);
+    border-radius: 5px;
+    
+}
+.download-cv:hover,.hireme-button:hover{
+    background: rgb(100, 0, 0);
+}
+.wel .buttons a{
+    text-decoration: none;
+    color: white;
+    margin:0 20px 0 0;
+}
+.header .socialicons{
+    width: 100%;
+    height: 10vh;
+    justify-content: left;
+    align-items:start;
+}
+.header .socialicons a {
+    margin: 25px 10px;
+}
+.aboutme{
+    background: rgb(225, 225, 225);
+}
+.aboutme img{
+    height: 40vh ;
+    border-radius: 10px;
+}
+.aboutme-body{
+    height: 50vh;
+}
+.aboutme .banner{
+    width: 30%;
+   
+}
+.aboutme .aboutme-cont{
+    width: 70%;
+}
+.aboutme .desc{
+    margin: 8vh 0 5vh 0 ;
+    width: 80%;
+    text-align: justify;
+}
+
+.work-body,.skills-body,.projects-body,.cert-body{
+    width: 85%;
+    margin: 5vh 0;
+    
+    
+}
+.work{
+    background: rgb(225, 225, 225);
+    
+}
+.exp{
+    width: 50%;
+    margin: 40px 0;
+}
+.exp p{
+    font-size: 14px;
+}
+.skills .desc{
+    width: 50%;
+    margin: 5vh 0;
+}
+.skills .logo{
+    margin: 0;
+    width: 50%;
+
+}
+.skills img{
+    height: 55vh;
+}
+.skill-list ul{
+    margin: 0  0 0 40px;
+}
+.skill-list ul li{
+    color: white;
+    list-style: none;
+    background: rgb(27, 27, 27);
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 7px 14px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.projects{
+    background: rgb(225, 225, 225);
+}
+.project{
+    margin: 5vh 0;
+}
+.project .banner{
+    width: 40%;
+}
+.project .desc{
+    width: 60%;
+    text-align: left;
+}
+.project .desc-body{
+    width: 90%;
+}
+.project img{
+    height: 40vh;
+    border-radius: 10px;
+    
+}
+.project h1{
+    font-size: 30px;
+}
+.project p{
+    margin: 20px 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+.project a {
+    text-decoration: none;
+    color: black;
+}
+.miniprojects{
+    width: 100%;
+}
+.miniprojects .banner{
+    margin: 10px 50px;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cert{
+    justify-content: space-evenly;
+}
+.cert-img{
+    margin: 4vh 0;
+    width: 50%;
+}
+.cert img{
+    height: 40vh;
+    
+}
+
+.cert p{
+  
+    margin: 20px 0;
+    line-height: 25px;
+}
+.footer{
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+}
+.footer .title{
+    height: 10vh;
+    align-items: end;
+}
+.footer h1{
+    color: white;
+}
+.footer .socialicons{
+    display: flex;
+    justify-content: center;
+}
+.footer .socialicons a {
+    margin: 20px 10px;
+}
+.madewithlove{
+    color: white;
+}
