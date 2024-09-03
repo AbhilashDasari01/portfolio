@@ -1,59 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="resources/css/project.css">
-        <link rel="stylesheet" href="">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-      <section class="heading">
-       <header>
-        <div class="topnav" id="topnavID">
-             <a href="index.html" class="home">Home</a>
-             <a href="resources/html/aboutme.html" class="about">About me</a>
-            <a href="resources/html/experience.html" class="experience">Experience</a>
-            <a href="resources/html/projects.html" class="project">Projects</a>
-            <a href="mailto:abhiobliges@gmail.com" class="contact">Contact</a>
-            <a href="resources/pdf/resume.pdf"  target="_blank" rel="noopener noreferrer">Resume</a>
-            
-            <a href="javascript:void(0)" class="options" onclick="myfunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhilash Dasari's Portfolio</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="nav">
+                <div class="logo">
+                    <img src="./resources/media/portlogo.png" alt="">
+                </div>
+                <div class="links">
+                    <a href="./resources/media/Abhilash Dasari's Resume.pdf" target="_blank">Resume</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#aboutme">About Me</a>
+                    <a href="#">Home</a>
+                </div>
         </div>
-        </header>
-        <div class="title">
-        <h1 class="title" style="text-align: center">WELCOME TO MY PAGE</h1>
-        </div>
-        <div class="myphoto">
-            <img src="images/IMG_6020.jpg" width="200" height="200">
-            <p class="mydetails">Abhilash Dasari<br>CS Graduate<br>29.08.2001<br>abhiobliges@gmail.com</p>
-        </div>
-        
-         <div class="aboutmebody" >
-           <P>My name is Abhilash Dasari and I completed my BTech in Computer Science and Engineering at JNTUCEA. I'd like to learn new skills , Technologies and Tools. Interested in devising a better solving methods for challenging tasks.
-               </P>
-               <p>
-                    I thrive in dynamic environments where I can apply my technical skills to solve real-world problems. With a solid foundation in computer science principles and hands-on experience in various programming languages and frameworks, I am eager to contribute to innovative projects and collaborate with talented teams. 
-               </p>
-          </div>
-        <script>
-            function myfunction(){
-                var x=document.getElementById("topnavID");
-                if(x.className==="topnav"){
-                    x.className+="responsive";
-                }
-                else{
-                    x.className="topnav";
-                }
-                
-            }
-        </script>
-        
-        </section>
-        <script src="resources/js/script.js"></script>
-               </body>
-    
-</html>
+        <div class="home-body">
+            <div class="wel">
+                <div class="wel-desc">
+                    <h1>Hello,</h1>
+                <h2>This is Abhilash Dasari,</h2>
+                <p>Welcome to my portfolio! I am a dedicated Computer Science and Engineering graduate with a passion for technology and innovation. 
+                    I am excited to share my work and experiences with you, and I look forward to the opportunity to contribute to impactful projects and collaborations.
+                </p>
+                <div class="buttons">
+                    <a href="./resources/media/Abhilash Dasari's Resume.pdf" download="Abhilash Dasari's Resume.pdf">
+                        <div class="download-cv">
+                            Download CV
+                        </div>
+                    </a>
+                    <a href="mailto:abhilashdasari01@gmail.com">
+                        <div class="hireme-button">
+                            Hire Me 
+                        </div>
+                    </a>
 
+                </div>
+                <div class="socialicons">
+                    <a href="https://www.instagram.com/swaeguy" target="_blank">
+                        <img src="./resources/media/instagram.png" height="31.5" alt="">
+                    </a>
+                    <a href="https://www.facebook.com/swaeguy" target="_blank"><img src="./resources/media/fb.png" alt="" height="30"></a>
+                    <a href="https://www.youtube.com/swaeguy" target="_blank"><img src="./resources/media/yt.png" alt="" height="38"></a>
+                    <a href="https://www.github.com/abhilashdasari01" target="_blank"><img src="./resources/media/github.png" alt="" height="30"></a>
+                </div>
+            </div>
+                </div>
+            </div>
+            
+    </header>
+    <main>
+        <section class="aboutme" id="aboutme">
+            <div class="aboutme-body">
+                <div class="banner">
+                    <img src="./resources/media/aboutme-img.jpeg" alt="">
+                </div>
+               <div class="aboutme-cont">
+                    <div class="desc">
+                        <h1>| ABOUT ME</h1> <br>
+    
+                        <p> My name is Abhilash Dasari and I completed my BTech in Computer Science and Engineering at JNTUCEA. I'd like to learn new skills , Technologies and Tools. Interested in devising a better solving methods for challenging tasks.
+    
+                            I thrive in dynamic environments where I can apply my technical skills to solve real-world problems. With a solid foundation in computer science principles and hands-on experience in various programming languages and frameworks, I am eager to contribute to innovative projects and collaborate with talented teams. </p>
+    
+                    </div>
+                    <div class="education">
+                        <h1>| EDUCATION</h1> <br>
+                        <P>
+                            <b> BTech - Computer Science and Engineering</b> <br>
+                            JNTUCEA (2018-2023)
+                            <br>
+                            7.35 CGPA
+                            
+                            </P>
+                    </div>
+               </div>
+            </div>
+        </section>
+        <section class="work" id="work">
+            
+            <div class="work-body">
+                <h1>| WORK EXPERIENCE</h1>
+               
+                <div class="exp-cont">
+                    <div class="exp">
+                        <h1>TECHGYAAN (07/2022 - 08/2022)</h1>
+                        <h3>Project Intern</h3> <br>
+                        <h5>Achievements/Tasks</h5>
+                        <p>Learned Web design using html and css
+                            <br>Learned JavaScript
+                           <br>Designed a static webpage named Top 5 Animes</p>
+                    </div>
+                    <div class="exp">
+                        <h1>SMART BRIDGE (09/2022 - 10/2022)</h1>
+                        <h3>Externship</h3> <br>
+                        <h5>Achievements/Tasks</h5>
+                        <p>Learned Data Science
+                            <br>Implemented Machine Learning Models
+                            <br>Flask Application
+                            <br>Hosted the project on IBM Cloud
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="skills-body">
+                <div class="desc">
+                    <h1>| SKILLS</h1> <br>
+                   <h4>PROGRAMMING LANGUAGES</h4>
+                   <div class="skill-list">
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C programming</li>
+                            <li>SQl</li>
+                        </ul>
+                   </div>
+                   <h4>Paradigm & Practices</h4>
+                   <div class="skill-list">
+                        <ul>
+                            <li>OOPs</li>
+                            <li>Data Structures</li>
+                            <li>Machine Learning</li>
+                        </ul>
+                   </div>
+                   <h4>FrontEnd Develoment</h4>
+                   <div class="skill-list">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                   </div>
+                   <h4>Database</h4>
+                   <div class="skill-list">
+                        <ul>
+                            <li>MySQL</li>
+                            <li>Oracle SQL</li>
+    
+                        </ul>
+                   </div>
+                   <h4>Application Tools</h4>
+                   <div class="skill-list">
+                        <ul>
+                            <li>Adobe Photoshop</li>
+                        </ul>
+                   </div>
+                </div>
+                <div class="logo">
+                    <img src="./resources/media/skills-logo.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="projects-body">
+                <h1>| PROJECTS</h1> <br>
+                <div class="project">
+                    <div class="banner">
+                        <img src="./resources/media/top5animes.png" alt="">
+                    </div>
+                    <div class="desc">
+                            <div class="desc-body">
+                                <h1>Top 5 Anime Website Design ( Winter Project by Techgyaan) </h1> 
+                            <p>Web design for top animes of all time<br>Developed a responsive website using HTML/CSS and JavaScript <br>
+                            Hosted the Project on GitHub
+                            </p>
+                            <br>
+                            
+                            
+                            </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="project">
+                    <div class="banner">
+                        <img src="./resources/media/ibm.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <div class="desc-body">
+                            <h1>Real-Time Communication System Powered By AI For Specially Abled Using IBM Watson
+                            </h1>
+                            <p>
+                                Using ML and flask application we build an web application for detecting the hand signs and translating the hand sign language <br>
+                                Created a Webpage using PHP <br>
+                                Trained the model using python and the frameworks like NumPy, Pandas,Tensorflow and Keras and Flask Application
+                                <br>Deployed the project on IBM Cloud
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <hr>
+                <div class="project">
+                    <div class="banner">
+                        <img src="./resources/media/wastemanagement.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <div class="desc-body">
+                            <h1>Waste Management System (Social Relevant Project by JNTUACEA)
+                            </h1>
+                            <p>Website for reporting waste locally and extracting meta data from the pictures to get the exact location of the waste to be managed
+                                <br>Developed the webpage with HTML/CSS
+                                <br>Implemented a Database with MySQL
+                                
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <hr>
+                <div class="project">
+                    <div class="banner">
+                        <img src="./resources/media/farmers.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <div class="desc-body">
+                            <h1>Rehabilitation for Sustainable Future for Farmers (Social Relevant Project by JNTUCEA)
+                                
+                            </h1>
+                            <p>
+                                An application for farmers to shop essentials and get predictions and advices without typical middlemen
+                                <br>Developed a website for farmers using HTML/CSS
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <hr>
+                <div class="project">
+                    <div class="banner">
+                        <img src="./resources/media/pothole.jpeg" alt="">
+                    </div>
+                    <div class="desc">
+                        <div class="desc-body">
+                            <h1>Pothole detection system using raspberry pi and edge computing
+                            </h1>
+                            <p>
+                                Pothole detecting system using edge computing and ml algorithms
+                                <br>Used Google Collab with Python libraries including TensorFlow, Keras, and OpenCV and CNN Algorithms to Train the Model
+                                <br>Raspbian (Raspberry Pi)is used as the operating system for the edge computing device
+                                <br>Google Maps API is used to visualize the location of detected potholes
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <br><br>
+                <h1>| MINI PROJECTS</h1>
+                <div class="miniprojects">
+                    <div class="miniprojects-body">
+                        <div class="project">
+                            <div class="banner">
+                                <img src="./resources/media/shaadi.png" alt="">  
+                                shaadi.com
+                            </div>
+                            <div class="banner">
+                                <img src="./resources/media/netflix.png" alt="">
+                                netflix.com
+                            </div>
+                            
+                        </div>
+                        <div class="project">
+                            <div class="banner">
+                                <img src="./resources/media/facebook.png" alt="">
+                                facebook.com
+                            </div>
+                            <div class="banner">
+                                <img src="./resources/media/chocolate.png" alt="">
+                                chocolate.com
+                            </div>
+                        </div>
+                        <div class="project">
+                            <div class="banner">
+                                <img src="./resources/media/knightbite.png" alt="">
+                                knightbite.com
+                            </div>
+                            <div class="banner">
+                                <img src="./resources/media/healthcare.png" alt="">
+                                healthcare.com
+                            </div>
+    
+                        </div>
+                        <div class="project">
+                            <div class="banner">
+                                <img src="./resources/media/youtube.png" alt="">
+                                youtube.com
+                            </div>
+                            <div class="banner">
+                                <img src="./resources/media/yogurt.png" alt="">
+                                yogurt.com
+                            </div>
+                        </div>
+                    </div>
+    
+                    </div>
+                   
+            </div>
+        </section>
+        <section class="certifications" id="certifications">
+            <div class="cert-body">
+                <h1>| CERTIFICATIONS</h1>
+                <div class="cert">
+                    <div class="cert-img">
+                        <img src="./resources/media/mta-java.png" alt="">
+                        <p><b>MTA: Introduction to Programming using Java</b> <br>
+                            Issued on Jun 2022
+                            <br>Credential ID 90087548
+                        </p>
+                    </div>
+                    <div class="cert-img">
+                        <img src="./resources/media/smartinternz.png" alt="">
+                        <p><b>Smart Internz: Machine Learning & Deep Learning powered by IBM</b> <br>
+                                Issued on Oct 2022
+                                <br>Certificate ID: Ext-MLDL-2022-14540
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="title">
+                <h1>| CONNECT</h1>
+                
+            </div>
+            <div class="socialicons">
+                <a href="https://www.instagram.com/swaeguy" target="_blank">
+                    <img src="./resources/media/instagram.png" height="31.5" alt="">
+                </a>
+                <a href="https://www.facebook.com/swaeguy" target="_blank"><img src="./resources/media/fb.png" alt="" height="30"></a>
+                <a href="https://www.youtube.com/swaeguy" target="_blank"><img src="./resources/media/yt.png" alt="" height="38"></a>
+                <a href="https://www.github.com/abhilashdasari01" target="_blank"><img src="./resources/media/github.png" alt="" height="30"></a>
+            </div>
+            <div class="madewithlove">
+                <p>Made with 🫶</p>
+            </div>
+        </div>
+    
+    </footer>
+
+</body>
+</html>
