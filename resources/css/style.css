@@ -1,10 +1,13 @@
 *{margin: 0;padding: 0;font-family: sans-serif;}
-.nav,.logo,.links,.wel,.wel .buttons,.aboutme-body,.skills-body,.skill-list ul,.project,.exp-cont{
+.nav,.logo,.links,.wel,.wel .buttons,.aboutme-body,.skills-body,
+.skill-list ul,.project,.exp-cont{
     display: flex;
 
 }
 
-.download-cv,.hireme-button, .aboutme .banner,.skills,.projects,.projects .banner,.project .desc,.miniprojects,.header .socialicons,.header .socialicons a,.footer .title ,.madewithlove,.cert,.certifications,.work
+.download-cv,.hireme-button, .aboutme .banner,.skills,.projects,.projects .banner,
+.project .desc,.miniprojects,.header .socialicons,.header .socialicons a,.footer .title ,
+.madewithlove,.cert,.certifications,.work,.miniprojects .project
 {
     display: flex;
     justify-content: center;
@@ -216,9 +219,21 @@
 }
 .miniprojects{
     width: 100%;
+    
+}
+.miniprojects .project{
+    width: 100%;
+    justify-content: center;
+}
+
+.miniprojects .project-cont{
+    width: 50%;
 }
 .miniprojects .banner{
-    margin: 10px 50px;
+    width: 100%;
+}
+.miniprojects p{
+    text-align: center;
     font-size: 14px;
     text-decoration: underline;
     cursor: pointer;
@@ -358,6 +373,7 @@
         display: block;
        }
        .project .banner,.project .desc{
+        
         width: 100%;
         margin: 20px 0;
        }
@@ -375,6 +391,16 @@
         width: 90%;
         height: auto;
        }
-       
+       .miniprojects p {
+        text-align: center;
+       }
+
+       .miniprojects .project{
+        display: block;
+       }
+       .miniprojects .project-cont{
+        width: 100%;
+    }
 
 }
+
