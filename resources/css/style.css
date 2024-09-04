@@ -96,7 +96,7 @@
     
 }
 .download-cv:hover,.hireme-button:hover{
-    background:  rgb(255, 167, 15);
+    background: rgb(255, 167, 15);
 }
 .wel .buttons a{
     text-decoration: none;
@@ -111,6 +111,9 @@
 }
 .header .socialicons a {
     margin: 25px 10px;
+}
+.socialicons img{
+    height: 4vh;
 }
 .aboutme{
     background: rgb(225, 225, 225);
@@ -258,4 +261,120 @@
 }
 .madewithlove{
     color: white;
+}
+@media screen and (max-width:1000px){
+
+}
+    @media only screen and (max-width: 620px){
+        header{
+            background: black;
+        }
+        .header{
+            background-position:-650px;
+        }
+
+        .header .links{
+            display: none;
+
+
+        }
+        .header .logo{
+            width: 100%;
+            justify-content: center;
+        }
+        .wel{
+            width: 100%;
+        }
+        .wel-desc{
+            width: 100%;
+        }
+        .header h1{
+            font-size: 30px;
+        }
+        .header h2{
+            font-size: 20px;
+        }
+        .header p{
+            font-size: 12px;
+        }
+        .download-cv,.hireme-button{
+            height: 4vh;
+            width: 25vw;
+        }
+        .header a{
+            font-size: 10px;
+        }
+        .socialicons img{
+            height: 3vh;
+        }
+        .aboutme-body{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .aboutme-body .banner{
+            
+            width: 100%;
+            display: flex;
+            justify-content: center;
+           
+        }
+        .aboutme img{
+            margin: 20px;
+        }
+        .skills img{
+            display: none;
+        }
+        .aboutme-body{
+            display: block;
+            width: 100%;
+            
+        }
+        .aboutme .desc,.education{
+            width: 100%;
+            margin-left: 40px;
+        }
+
+        .aboutme h1,.work h1,.skills h1,.projects h1,.certifications h1,.footer h1{
+            font-size: 20px;
+        }
+        .exp h1,.exp h3,.skills h4,.project h1{
+            font-size: 14px;
+        }
+        .aboutme p,.work p,.project p,.cert p{
+            font-size: 11px;
+            line-height: 15px;
+        }
+        .exp{
+            width: 100%;
+        }
+       .exp-cont{
+        display: block;
+       }
+       .skills ul li{
+            font-size: 10px;
+       }
+       .project{
+        display: block;
+       }
+       .project .banner,.project .desc{
+        width: 100%;
+        margin: 20px 0;
+       }
+       .project img{
+        height: 25vh;
+       }
+       .cert{
+        display: block;
+
+       }
+       .cert-img{
+        width: 100%;
+       }
+       .cert img{
+        width: 90%;
+        height: auto;
+       }
+       
+
 }
