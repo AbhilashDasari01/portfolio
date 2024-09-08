@@ -112,12 +112,13 @@
     justify-content: left;
     align-items:start;
 }
-.header .socialicons a {
+.header .socialicons a,.footer .socialicons a {
     margin: 25px 10px;
+    font-size: 4vh;
+    color: white;
+    text-decoration:none;
 }
-.socialicons img{
-    height: 4vh;
-}
+
 .aboutme{
     background: rgb(225, 225, 225);
 }
@@ -271,16 +272,92 @@
     display: flex;
     justify-content: center;
 }
-.footer .socialicons a {
-    margin: 20px 10px;
-}
 .madewithlove{
     color: white;
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:1400px){
+    header{
+        background: black;
+    }
+    .header{
+        background-position:right;
+    }
+    .wel{
+        width: 100%;
+    }
+    .header h1{
+        font-size: 40px;
+    }
+    .header h2{
+        font-size: 30px;
+    }
+    .header p{
+        font-size: 15px;
+    }
+    .download-cv,.hireme-button{
+        height: 4vh;
+        width: 25vw;
+    }
+    .header a{
+        font-size: 17px;
+    }
 
+    .aboutme h1,.work h1,.skills h1,.projects h1,.certifications h1,.footer h1{
+        font-size: 30px;
+    }
+    .exp h1,.exp h3,.skills h4,.project h1{
+        font-size: 17px;
+    }
+    .aboutme p,.work p,.project p,.cert p{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .exp{
+        width: 100%;
+    }
+    .skills .desc{
+        width: 100%;
+    }
+    .skills img{
+        display: none;
+    }
+   .skills ul li{
+        font-size: 15px;
+        
+   }
+   .project .banner,.project .desc{
+    
+        width: 100%;
+        margin: 20px 0;
+   }
+   .project img{
+        height: 25vh;
+   }
+   .cert{
+        display: block;
+
+   }
+   .cert-img{
+        width: 100%;
+   }
+   .cert img{
+        width: 50%;
+        height: auto;
+   }
+   .miniprojects p {
+        text-align: center;
+   }
+
+  
+   .miniprojects .project-cont{
+        width: 100%;
+
+    }
+    .header .socialicons a,.footer .socialicons a {
+        font-size: 3vh;
+    }
 }
-    @media only screen and (max-width: 620px){
+    @media only screen and (max-width: 950px){
         header{
             background: black;
         }
@@ -319,9 +396,6 @@
         .header a{
             font-size: 10px;
         }
-        .socialicons img{
-            height: 3vh;
-        }
         .aboutme-body{
             display: block;
             width: 100%;
@@ -337,9 +411,7 @@
         .aboutme img{
             margin: 20px;
         }
-        .skills img{
-            display: none;
-        }
+        
         .aboutme-body{
             display: block;
             width: 100%;
@@ -364,42 +436,46 @@
             width: 100%;
         }
        .exp-cont{
-        display: block;
+            display: block;
        }
+        .skills img{
+            display: none;
+        }
        .skills ul li{
             font-size: 10px;
+            
        }
        .project{
-        display: block;
+            display: block;
        }
        .project .banner,.project .desc{
         
-        width: 100%;
-        margin: 20px 0;
+            width: 100%;
+            margin: 20px 0;
        }
        .project img{
-        height: 25vh;
+            height: 25vh;
        }
        .cert{
-        display: block;
+            display: block;
 
        }
        .cert-img{
-        width: 100%;
+            width: 100%;
        }
        .cert img{
-        width: 90%;
-        height: auto;
+            width: 50%;
+            height: auto;
        }
        .miniprojects p {
-        text-align: center;
+            text-align: center;
        }
 
        .miniprojects .project{
-        display: block;
+            display: block;
        }
        .miniprojects .project-cont{
-        width: 100%;
+            width: 100%;
     }
 
 }
